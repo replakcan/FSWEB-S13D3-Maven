@@ -13,8 +13,8 @@ public class Person {
         this.lastName = lastName;
         this.age = age;
     }
-    public Person(double height, int weight, boolean doWearGlasses){
-        this("Alper", "Akcan", 28);
+    public Person(String firstName, String lastName, int age, double height, int weight, boolean doWearGlasses){
+        this(firstName, lastName, age);
         this.height = height;
         this.weight = weight;
         this.doWearGlasses = doWearGlasses;

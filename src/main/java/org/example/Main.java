@@ -3,7 +3,7 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         Person person = new Person("John", "Doe", 20);
-        Person person_2 = new Person(186.2, 82, false);
+        Person person_2 = new Person("Alper", "Akcan", 28, 186.0, 85, false);
         System.out.println("Firstname: " + person_2.getFirstName());
         System.out.println("LastName: " + person_2.getLastName());
         System.out.println("Age: " + person_2.getAge());
